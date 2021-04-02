@@ -1,0 +1,347 @@
+header{
+    text-align:center;
+    background: #ffffff;
+}
+section {
+    text-align:center;
+    background: #ffffff;
+}
+.section_grey {
+    text-align:center;
+    background: #b4b4b4;
+    opacity: 0.75;
+}
+section h1 {
+    text-align:center;
+    background: #ecafaf;
+}
+
+footer {
+    text-align:left;
+    background: #a5a4a4;
+    opacity: .3;
+}
+.center-pic{
+    display:block;
+    margin:auto;
+    opacity: 0.75;
+
+}
+.image-blurred-edge {
+    background-image: url('https://coronapsyhoz.com/wp-content/uploads/2020/06/O-nas.jpg');
+    width: 200px;
+    height: 200px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    color: #323232;
+    font-size: 15px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+.heading-title {
+    margin-bottom: 100px;
+}
+.text-center {
+    text-align: center;
+}
+.heading-title h3 {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.p-top-30 {
+    padding-top: 30px;
+}
+.half-txt {
+    width: 60%;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 25px;
+    color: #7e7e7e;
+}
+.text-uppercase {
+    text-transform: uppercase;
+    text-shadow: #908f8f 0 0 3px;
+}
+
+.team-member, .team-member .team-img {
+    position: relative;
+}
+.team-member {
+    overflow: hidden;
+}
+.team-member, .team-member .team-img {
+    position: relative;
+}
+.team-img {
+    border-radius: 50%;
+}
+.team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    border: 20px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.90);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.team-member:hover .team-hover .desk {
+    top: 35%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+}
+.team-hover .desk {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(-55%);
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    padding: 0 20px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #222;
+}
+.team-member:hover .team-hover .s-link {
+    bottom: 10%;
+}
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+}
+.team-hover .s-link {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: translateY(45%);
+    -ms-transform: translateY(45%);
+    transform: translateY(45%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    font-size: 35px;
+}
+.desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #222;
+}
+.team-member .s-link a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 16px;
+}
+.team-title {
+    position: static;
+    padding: 20px 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    width: 100%;
+}
+.team-title h5 {
+    margin-bottom: 0px;
+    display: block;
+    text-transform: uppercase;
+}
+.team-title span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a5a5a5;
+    letter-spacing: 1px;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+.agileits-w3layouts-footer{
+    background: #111727;
+    padding:3em 0;
+}
+.w3-agile-grid h5{
+    color: #FFFFFF;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 0 2em 0;
+}
+.w3-agile-grid p{
+    color: #707480;
+    font-size: 0.9em;
+    line-height: 2em;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.agileinfo-social-grids {
+    margin: 2em 0 0 0;
+}
+.agileinfo-social-grids ul {
+    padding: 0;
+    margin: 0;
+}
+.w3ls-post-img {
+    float: left;
+    width: 20%;
+}
+.w3ls-post-img a img{
+    width:100%;
+}
+.w3ls-post-info{
+    float:right;
+    width:75%;
+}
+.w3ls-post-info h6{
+    margin: 0;
+    font-size: 1em;
+    font-weight: 400;
+}
+.w3ls-post-info h6 a{
+    color: #FFFFFF;
+    margin: 0;
+    line-height: 1.5em;
+}
+.w3ls-post-info h6 a:hover{
+    color:#ff5301;
+}
+.w3ls-post-info h6 a:focus{
+    outline:none;
+    text-decoration:none;
+}
+.w3ls-post-info p{
+    font-size: .9em;
+    margin: 1em 0 0 0;
+}
+.w3ls-post-grid:nth-child(2){
+    margin:1em 0;
+}
+.w3-address-grid{
+    background: #0c111f;
+    padding:1em;
+}
+.w3-address-left{
+    float:left;
+    width:10%;
+}
+.w3-address-left i.fa.fa-phone,.w3-address-left i.fa.fa-envelope,.w3-address-left i.fa.fa-map-marker{
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+.w3-address-right{
+    float: right;
+    width: 87%;
+}
+.w3-address-right h6{
+    color: #FFFFFF;
+    font-size: 1em;
+    margin: 0;
+    font-weight: 400;
+}
+.w3-address-right p{
+    margin:1em 0 0 0;
+    font-size:.9em;
+}
+.w3-address-right p a{
+    color: #34bf49;
+    text-decoration: none;
+}
+.w3-address-right p a:hover{
+    color:#b5b5b5;
+}
+.w3-address-right p span{
+    display:block;
+    margin:.5em 0;
+}
+.w3-address-grid:nth-child(2){
+    margin:1em 0;
+}
+.copyright{
+    padding: 1.3em 0 1em 0;
+    text-align:center;
+    background: #0c111f;
+}
+.copyright p {
+    color: #b2b7bf;
+    font-size: .9em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.copyright p a{
+    color: #34bf49;
+    text-decoration:none;
+}
+.copyright p a:hover{
+    color:#ff5301;
+}
+.w3_agileits_social_media.team_agile_w3{
+    margin: 0;
+    float: none;
+    padding: 0;
+}
+ul.social-icons3 {
+    display: block;
+    padding: 0;
+    margin-top: 1em;
+}
+ul.social-icons3{
+    display:block;
+    padding: 0;
+    margin-top: 1em;
+}
+ul.social-icons3 li{
+    display:inline-block;
+}
+ul.social-icons3 li a{
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-right: 1em;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+    margin-right: 0.4em;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    line-height: 30px;
+    color:#fff;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -o-border-radius:50%;
+    text-align:center;
+}
+ul.social-icons3 li a.wthree_facebook{
+    background:#4D669C;
+}
+ul.social-icons3 li a.wthree_twitter{
+    background:#1da1f2;
+}
+ul.social-icons3 li a:hover{
+    text-decoration:none;
+    opacity:0.8;
+}
