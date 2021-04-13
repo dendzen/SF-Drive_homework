@@ -23,7 +23,7 @@ module.exports = {
         new MiniCssExtractPlugin(),
         new TerserWebpackPlugin(),
         new HtmlWebpackPlugin({
- //           template: `./src/index.pug`,
+            template: `./src/index.pug`,
             filename: 'index.html',
             inject: true
         })
