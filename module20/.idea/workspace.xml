@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42f9758-0606-4296-92b8-0e5bace14c35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../module21/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
@@ -55,10 +55,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../module21" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="C:\Users\fedos\Documents\GitHub\SF-Drive_homework\module20\node_modules\stylelint" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -86,7 +89,7 @@
       <workItem from="1617976979018" duration="212000" />
       <workItem from="1618219106196" duration="1894000" />
       <workItem from="1618247210359" duration="4353000" />
-      <workItem from="1618297823996" duration="2440000" />
+      <workItem from="1618297823996" duration="3367000" />
     </task>
     <servers />
   </component>
@@ -106,10 +109,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="603" y="409" key="#Stylelint" timestamp="1618249390227">
+    <state x="828" y="431" key="#ESLint" timestamp="1618339360566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="603" y="409" key="#Stylelint/0.0.1920.1040@0.0.1920.1040" timestamp="1618249390227" />
+    <state x="828" y="431" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1618339360566" />
+    <state x="603" y="409" key="#Stylelint" timestamp="1618339033298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="603" y="409" key="#Stylelint/0.0.1920.1040@0.0.1920.1040" timestamp="1618339033298" />
     <state x="763" y="309" key="#Web_Browsers" timestamp="1618219499978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
