@@ -1,11 +1,19 @@
-import React, { Component } from "react";
-import "../styles/app.css"
-class Header extends Component {
-    render() {
-        return (
-                <header>This is Header IO</header>
-        );
+import React, { useState } from "react";
+import "../styles/app.css";
+
+function Header(props) {
+    let [count, setNewCount] = useState(0);
+    const handleClick = () => {
+        setNewCount(count +1);
     }
+
+        return (
+                <header>This is Header
+                    <button className={"some-button"} onClick={handleClick}>
+                        {props.buttonName}, clicked: {count} times
+                    </button>
+                </header>
+        );
 }
 
 export default Header;
