@@ -1,7 +1,17 @@
-div {
-    padding: 10px;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 h1 {
     text-align: center;
     color: #1edb17;
+}
+header {
+    color:white;
+    background: black;
+    font-size: 3rem;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
