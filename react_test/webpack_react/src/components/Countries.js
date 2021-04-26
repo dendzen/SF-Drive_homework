@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import "../styles/app.css";
+import Country from "./County";
 import axios from "axios";
 import Table from 'react-bootstrap/Table';
-import Button from 'react-bootstrap/Button';
 function Countries () {
     const [countries, setCountries] = useState([]);
     if (!countries.length) {
@@ -21,15 +21,7 @@ function Countries () {
                 </tr>
                 </thead>
                 <tbody>
-                {countries.map(country =>
-                    <tr>
-                        <td>{country.name}</td>
-                        <td>{country.capital}</td>
-                        <td>
-                            <Button variant="success">Add</Button>
-                            <Button variant="danger">Remove</Button>
-                        </td>
-                    </tr>)}
+                {countries.map(country => <Country key={country.alpha3Code} country={country}/>)}
                 </tbody>
             </Table>
     );

@@ -25,3 +25,6 @@ table.countries {
     width: 80%;
     margin: 0 auto;
 }
+tr.selected-country {
+    background: aqua !important;
+}
