@@ -1,15 +1,16 @@
 import React, {useState} from "react";
 import "../styles/app.css";
 import axios from "axios";
-import Table from 'react-bootstrap/Table';
+import PropTypes from "prop-types";
+
 import Button from 'react-bootstrap/Button';
 function Country (props) {
     const [selected, changeSelected] = useState(false)
 
     return (
                 <tr className={selected ? "selected-country": ""}>
-                    <td>{props.country.name}</td>
-                    <td>{props.country.capital}</td>
+                    <td>{props.name}</td>
+                    <td>{props.capital}</td>
                     <td>
                         { selected ?
                             <Button variant="danger" onClick={() => changeSelected(false)}>Remove</Button> :
@@ -19,5 +20,11 @@ function Country (props) {
                 </tr>
     );
 }
+Country.defaultProps = {
+    capital: "Not Available"
+};
 
+Country.propTypes ={
+    country: PropTypes.object
+};
 export default Country;
