@@ -8,9 +8,10 @@ h1 {
 }
 header {
     color:white;
+    flex-direction: column;
     background: black;
     font-size: 3rem;
-    height: 88px;
+    height: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,4 +20,8 @@ header .some-button {
     padding: 10px 15px;
     border-radius: 5px;
     border: 1px solid gray;
+}
+table.countries {
+    width: 80%;
+    margin: 0 auto;
 }

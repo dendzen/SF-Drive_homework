@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/app.css";
-
+import Button from 'react-bootstrap/Button';
 function Header(props) {
     let [count, setNewCount] = useState(0);
     const handleClick = () => {
@@ -9,9 +9,9 @@ function Header(props) {
 
         return (
                 <header>This is Header
-                    <button className={"some-button"} onClick={handleClick}>
+                    <Button className={"some-button"} onClick={handleClick}>
                         {props.buttonName}, clicked: {count} times
-                    </button>
+                    </Button>
                 </header>
         );
 }
