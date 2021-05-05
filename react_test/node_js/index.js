@@ -23,7 +23,7 @@ const argv = yargs
     }
 )
     .option('verbose', {
-        alias: 'v',
+        alias: 'v',дд
         type: 'boolean',
         description: 'Run with verbose logging'
     })

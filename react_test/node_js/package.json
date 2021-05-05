@@ -10,6 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
+    "express": "^4.17.1",
     "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "http": "^0.0.1-security"
   }
 }
